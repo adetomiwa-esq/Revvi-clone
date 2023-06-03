@@ -9,7 +9,7 @@ function Navbar() {
             <img src={Logo} alt="logo" />
         </Link>
         <ul className='flex ml-[12%] xl:ml-[270px] w-[100%-] flex-wrap text-zinc-500'>
-            <li className='w-[20%] mb-8 pb-3 min-w-[190px]'>PAY PROGRAM FEE</li>
+            <li className='w-[20%] mb-8 pb-3 min-w-[190px]'><Link to='/pay-program'>PAY PROGRAM FEE</Link></li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'>ACTIVATE YOUR CARD</li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'>ACCEPT MAIL OFFER</li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'>REVVI REWARDS</li>

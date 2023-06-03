@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Index from './Pages/Home/Index';
 import Navbar from './Components/Utility/Navbar';
 import Footer from './Components/Utility/Footer';
+import PayProgram from './Pages/PayProgramFee/PayProgram';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Index />} />
+        <Route path='/pay-program' element={<PayProgram />} />
       </Routes>
       <Footer />
     </BrowserRouter>
