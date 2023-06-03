@@ -19,3 +19,7 @@ code {
 #input[type=checkbox] {
   transform: scale(2.3);
 }
+
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -4,7 +4,7 @@ import Logo from '../../images/Revvi_logo.png'
 
 function Navbar() {
   return (
-    <nav className='flex flex-col border pt-7'>
+    <nav className='flex flex-col pt-7'>
         <Link to='/' className='text-red-600 w-[270px] mb-5'>
             <img src={Logo} alt="logo" />
         </Link>
@@ -12,7 +12,7 @@ function Navbar() {
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'><Link to='/pay-program'>PAY PROGRAM FEE</Link></li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'>ACTIVATE YOUR CARD</li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'><Link to="/pre-approvedrevvi">ACCEPT MAIL OFFER</Link></li>
-            <li className='w-[20%] mb-8 pb-3 min-w-[190px]'>REVVI REWARDS</li>
+            <li className='w-[20%] mb-8 pb-3 min-w-[190px]'><Link to="/rewards">REVVI REWARDS</Link></li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px] text-black relative group'>DISCOVER
                 <ul className='absolute bottom-[-145px] w-[150px] text-center bg-white hidden group-hover:block z-40'>
                     <li className='border-b-[1px] border-zinc-300'><Link to='' className='py-3 block'>BENEFIT</Link></li>

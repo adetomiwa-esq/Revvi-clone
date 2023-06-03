@@ -1,6 +1,7 @@
 import React from 'react'
 
 function TopSection() {
+
   return (
     <section className='mb-5'>
           <h4 className='font-bold mb-4'>1. Enter your Date of Birth</h4>
