@@ -1,14 +1,16 @@
 import React from 'react'
 import Cards from '../../images/rewardleft.png';
-import Percent from '../../images/PERCENT.png'
+import Percent from '../../images/PERCENT.png';
+import AltCard from '../../images/altCard.png';
 
 
 function TopSection() {
   return (
     <div className='flex flex-col md:flex-row px-4 md:justify-between pl-[15px] font-[100] text-zinc-700 text-center md:text-left mb-10 md:mb-0'>
-        <div className='hidden md:block w-[40%] lg:w-2/6 border'>
+        <div className='hidden md:block w-[40%] lg:w-2/6'>
             <img className='h-full' src={Cards} alt="cards" />
         </div>
+        <img src={AltCard} alt="alt-card" className='md:hidden w-[94%] mx-auto' />
         <div className='md:w-3/6'>
             <h1 className='text-[red] text-[26px] sm:text-[2.5rem] lg:text-[3.7rem] font-[700] mb-4'>REVVI REWARDS</h1>
             <h2 className='mb-4 text-[20px] font-[600] text-black'>Make Payments, Earn Rewards!</h2>
