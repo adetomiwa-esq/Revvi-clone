@@ -5,6 +5,7 @@ import Index from './Pages/Home/Index';
 import Navbar from './Components/Utility/Navbar';
 import Footer from './Components/Utility/Footer';
 import PayProgram from './Pages/PayProgramFee/PayProgram';
+import MailOffer from './Pages/AcceptMailOffer/MailOffer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Index />} />
         <Route path='/pay-program' element={<PayProgram />} />
+        <Route path='/pre-approvedrevvi' element={<MailOffer />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -11,7 +11,7 @@ function Navbar() {
         <ul className='flex ml-[12%] xl:ml-[270px] w-[100%-] flex-wrap text-zinc-500'>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'><Link to='/pay-program'>PAY PROGRAM FEE</Link></li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'>ACTIVATE YOUR CARD</li>
-            <li className='w-[20%] mb-8 pb-3 min-w-[190px]'>ACCEPT MAIL OFFER</li>
+            <li className='w-[20%] mb-8 pb-3 min-w-[190px]'><Link to="/pre-approvedrevvi">ACCEPT MAIL OFFER</Link></li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'>REVVI REWARDS</li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px] text-black relative group'>DISCOVER
                 <ul className='absolute bottom-[-145px] w-[150px] text-center bg-white hidden group-hover:block z-40'>
