@@ -13,17 +13,17 @@ function Navbar() {
     const dispatch = useDispatch()
   return (
     <nav className='flex items-center sm:items-start  sm:flex-col sm:pt-7 py-3 sm:py-0 px-4 bg-[#f12e2ed3] sm:bg-transparent'>
-        <Link to='/' className='text-red-600 w-[100px] md:w-[270px] sm:mb-5'>
+        <Link to='/' className='text-red-600 w-[100px] sm:w-[180px] md:w-[240px] sm:mb-5'>
             <img className='hidden sm:block' src={Logo} alt="logo" />
             <img className=' sm:hidden' src={White} alt="logo" />
         </Link>
-        <ul className='ml-[12%] xl:ml-[270px] w-[100%-] flex-wrap text-zinc-500 hidden sm:flex text-center'>
+        <ul className='ml-[7%] w-[calc(100%-7%)] xl:ml-[240px] xl:w-[calc(100%-240px)] flex-wrap text-zinc-600 hidden sm:flex text-center'>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'><Link to='/pay-program'>PAY PROGRAM FEE</Link></li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'><Link to='/pay-program'>ACTIVATE YOUR CARD</Link></li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'><Link to="/pre-approvedrevvi">ACCEPT MAIL OFFER</Link></li>
             <li className='w-[20%] mb-8 pb-3 min-w-[190px]'><Link to="/rewards">REVVI REWARDS</Link></li>
-            <li className='w-[20%] mb-8 pb-3 min-w-[190px] text-black relative group cursor-pointer flex items-center justify-center'>DISCOVER <span className='text-[red] font-[700] ml-2'><AiOutlineDown /></span>
-                <ul className='absolute bottom-[-145px] w-[150px] text-center bg-white hidden group-hover:block z-40'>
+            <li className='w-[20%] mb-8 pb-3 min-w-[190px] text-black relative group cursor-pointer flex items-center justify-center font-[800]'>DISCOVER <span className='text-[red] font-[700] ml-2'><AiOutlineDown /></span>
+                <ul className='absolute bottom-[-135px] w-[150px] text-center bg-white hidden group-hover:block z-40 font-normal'>
                     <li className='border-b-[1px] border-zinc-300'><Link to='' className='py-3 block'>BENEFIT</Link></li>
                     <li className='border-b-[1px] border-zinc-300'><Link to='' className='py-3 block'>RESOURCES</Link></li>
                     <li className=''><Link to='' className='py-3 block'>FAQ</Link></li>

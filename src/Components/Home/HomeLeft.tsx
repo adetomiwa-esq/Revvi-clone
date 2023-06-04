@@ -1,10 +1,13 @@
 import React from 'react'
 import Acknowledgements from './Acknowledgements'
 import CardDesign from './CardDesign'
+import Progress from './Progress';
+import { Months, Days, Years } from '../Utility/Date';
 
 function HomeLeft() {
   return (
-    <div className='border w-full sm:w-[58%] lg:w-[55%]'>
+    <div className='w-full sm:w-[58%] lg:w-[55%]'>
+        <Progress />
         <form action="" className=''>
             <section className='mb-10 mx-4 md:mx-0'>
                 <div className='flex justify-between flex-col sm:flex-row mb-3'>
@@ -90,12 +93,15 @@ function HomeLeft() {
                     <div className='flex justify-between mb-2'>
                         <select name="" id="" className='w-[31%] h-9 outline-none px-[2px]'>
                             <option value="">Month</option>
+                            {Months.map((month,index) => <option key={index} value={month}>{month}</option>)}
                         </select>
                         <select name="" id="" className='w-[31%] h-9 outline-none px-[2px]'>
                             <option value="">Day</option>
+                            {Days.map((day,index) => <option key={index} value={day}>{day}</option>)}
                         </select>
                         <select name="" id="" className='w-[31%] h-9 outline-none px-[2px]'>
                             <option value="">Year</option>
+                            {Years.map((Year,index) => <option key={index} value={Year}>{Year}</option>)}
                         </select>
                     </div>
                     <p className='text-red-400 text-sm'>You must be 18 years or older to be eligible.</p>

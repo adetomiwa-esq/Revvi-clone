@@ -15,7 +15,7 @@ function PayProgram() {
     <main className={`'pb-16' ${mobileNavDisplay ? 'fixed right-[40%] sm:static' : 'right-0'} w-full transition-all delay-150 ease-in-out`}>
         <Navbar />
         <Slide />
-        <div className='px-6'>
+        <div className='px-6 pb-16'>
           <header className='text-center my-12'>
             <h1 className='font-bold text-[26px] mb-5'>FIND APPROVED APPLICATION</h1>
             <p>Search for your application below to Pay Program Fee or Activate Your Card</p>
